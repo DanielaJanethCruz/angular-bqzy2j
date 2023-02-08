@@ -1,1 +1,6 @@
-<p>login works!</p>
+<form action ="" method="post" class ="form">
+    <h1>Ingresar al Sistema</h1>
+    <imput type="text" name="email" id="email" [(ngModel)]="email" required="required">
+    <imput type="password" name ="password" id="password" [(ngModel)]="password" required="required">
+    <button type="submit" (click)="login()">Login</button>
+</form>
